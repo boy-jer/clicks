@@ -1,0 +1,9 @@
+tmp/**/*
+tmp/*
+.DS_Store
+log/*.log
+db/*.sqlite3
+doc/app/*
+.bundle
+coverage/*
+rerun.txt

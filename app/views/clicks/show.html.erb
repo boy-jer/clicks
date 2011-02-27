@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Url:</b>
+  <%= @click.url %>
+</p>
+
+<p>
+  <b>Request ip:</b>
+  <%= @click.request_ip %>
+</p>
+<p>
+  <b>Browser:</b>
+  <%= @click.user_agent %>
+</p>
+<p>
+  <b>Request data:</b>
+  <%= @click.request_data %>
+</p>
+
+
+<%= link_to 'Edit', edit_click_path(@click) %> |
+<%= link_to 'Back', clicks_path %>
