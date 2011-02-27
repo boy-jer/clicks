@@ -7,3 +7,7 @@ Install
 -------
 It's a Rails app ...
 
+Todo
+----
+Should really include a bunch of test cases. These should turn up in a
+later instalment. This version was about trying out an idea.
