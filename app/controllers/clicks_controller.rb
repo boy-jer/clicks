@@ -49,11 +49,11 @@ class ClicksController < ApplicationController
       if @click.save
         format.html { redirect_to(@click, :notice => 'Click was successfully created.') }
         format.xml  { render :xml => @click, :status => :created, :location => @click }
-        format.js
+        format.js { render :json => @click }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @click.errors, :status => :unprocessable_entity }
-        format.js
+        format.js { render :json => @click.errors }
       end
     end
   end
